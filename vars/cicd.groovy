@@ -14,6 +14,15 @@ def gitDeployment(jobname,ip,context)
 
 }
 
+def executeselenium(jobname)
+{
+ sh "java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar" 
+}
+
+
+
+
+
 
 
 
