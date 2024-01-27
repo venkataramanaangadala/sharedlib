@@ -14,4 +14,20 @@ def gitDeployment(jobname,ip,context)
 
 }
 
+def gitTesting (remp)
+{
+   git 'https://github.com/intelliqittrainings/${ramp}.git'
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
